@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "electron-serve": "^1.1.0",
-    "electron-store": "^8.1.0"
+    "electron-store": "^8.1.0",
+    "styled-components": "^6.0.0-rc.1"
   },
   "devDependencies": {
     "@ant-design/icons": "^4.7.0",
