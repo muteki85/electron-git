@@ -3,7 +3,7 @@
 ### Install Dependencies
 
 ```
-$ cd my-app
+$ cd electron-git
 
 # using yarn or npm
 $ yarn (or `npm install`)

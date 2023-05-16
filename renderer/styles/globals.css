@@ -1,0 +1,22 @@
+/*Import poppins Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /*height: 100%;*/
+
+}
+
+html,body{
+    min-height: 100vh;
+    height: 100%;
+}
+
+#__next{
+    height: calc( 100% - 64px);
+}
+
