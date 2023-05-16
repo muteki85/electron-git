@@ -1,19 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/NrkTPe9.png"></p>
 
-## Usage
-
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example with-ant-design
-
-# with yarn
-$ yarn create nextron-app my-app --example with-ant-design
-
-# with pnpx
-$ pnpx create-nextron-app my-app --example with-ant-design
-```
 
 ### Install Dependencies
 
