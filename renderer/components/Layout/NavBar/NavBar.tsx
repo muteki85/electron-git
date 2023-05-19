@@ -1,10 +1,12 @@
-import {  Menu } from 'antd';
+import {  Menu, Layout } from 'antd';
 
 import React from "react";
-import {Header} from "antd/es/layout/layout";
+
 
 const NavBar:React.FC = () => {
 
+    const {Header} = Layout;
+    
     return (
         <Header className={'flex justify-content-center !align-center !items-center' }>
             <div >
