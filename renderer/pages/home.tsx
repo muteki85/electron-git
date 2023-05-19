@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+
+
 import {
     Layout,
     Form,
@@ -22,7 +24,7 @@ const {Option} = Select;
 function Home() {
     return (
         <>
-            <h1>Home</h1>
+            <h1 className={'text-3xl !text-blue-500'}>Home</h1>
         </>
     );
 };

@@ -1,13 +1,15 @@
 import {  Menu } from 'antd';
-import {HeaderSticky, Title} from "./NavBar.styled";
+
+import React from "react";
+import {Header} from "antd/es/layout/layout";
 
 const NavBar:React.FC = () => {
 
     return (
-        <HeaderSticky>
-            <Title>
-                <h1>[electron_git]</h1>
-            </Title>
+        <Header className={'flex justify-content-center !align-center !items-center' }>
+            <div >
+                <h1 className={'text-white text-xl mb-0'}>[electron_git]</h1>
+            </div>
             {/*<Menu*/}
             {/*    theme="dark"*/}
             {/*    mode="horizontal"*/}
@@ -17,7 +19,7 @@ const NavBar:React.FC = () => {
             {/*        label: `nav ${index + 1}`,*/}
             {/*    }))}*/}
             {/*/>*/}
-        </HeaderSticky>
+        </Header>
     )
 
 }
